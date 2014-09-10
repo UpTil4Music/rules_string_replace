@@ -1,0 +1,5 @@
+name = Rules String Replace
+description = Provides string replacement action to rules.
+package = Rules
+core = 7.x
+dependencies[] = rules

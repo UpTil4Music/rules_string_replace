@@ -37,19 +37,19 @@ function rules_string_replace_rules_action_info() {
           'type' => 'text',
           'label' => t('Value being searched for, AKA the needle'),
         ),
-		'replace' => array(
+        'replace' => array(
           'type' => 'text',
           'label' => t('The replacement value'),
           'optional' => TRUE,
           'default value' => '',
-		  ),
+        ),
       ),
-    'provides' => array(
-      'replaced_string' => array(
-        'type' => 'text',
-        'label' => t('Replaced string'),
+      'provides' => array(
+        'replaced_string' => array(
+          'type' => 'text',
+          'label' => t('Replaced string'),
+        ),
       ),
-    ),
     ) + $defaults,
   );
 }
